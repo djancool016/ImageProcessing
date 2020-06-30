@@ -26,6 +26,7 @@ def ipcam():
         # Quit if q is pressed
         if cv.waitKey(1) & 0xFF == ord('q'):
             break
+        
             
 if __name__ == "__main__":
     ipcam()    
